@@ -2,11 +2,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * @author ShiryaevAK
+ */
+/*
+ * 1. Начинаем писать калькулятор:
+ *Реализовать сложение дробных чисел, которые пользователь вводит в консоль. Использовать комментарии и JavaDoc при описании метода. Использовать форматирование при выводе результата в консоль. Полученный результат округлять до 4-х знаков после запятой.
+ *2. Запушить проект в свой репозиторий на GitHub
+ *Добавить возможность выбора другой операции (сложение, вычитание, деление, умножение)
+ * */
 class Calculator2 {
     private int numOp = 0;
     private double x1 = 0, x2 = 0, result = 0;
-    public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    void calculate(){
+    private BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+    void calculate() {
         try {
             System.out.printf("Введите номер операции (1 - сложение, 2 - вычитание, 3 - деление, 4 - умножение): ");
             numOp = Integer.parseInt(reader.readLine());

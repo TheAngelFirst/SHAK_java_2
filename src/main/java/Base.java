@@ -1,17 +1,35 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /**
  * @author ShiryaevAK
  */
 
 /*
-* 1. Начинаем писать калькулятор:
-*Реализовать сложение дробных чисел, которые пользователь вводит в консоль. Использовать комментарии и JavaDoc при описании метода. Использовать форматирование при выводе результата в консоль. Полученный результат округлять до 4-х знаков после запятой.
-*2. Запушить проект в свой репозиторий на GitHub
-*Добавить возможность выбора другой операции (сложение, вычитание, деление, умножение)
-* */
+Программа должна выполнять одно из заданий на выбор.
+Если в консоли ввести 1 - запуститься выполнение калькулятора, если 2 - поиск максимального слова в массиве.
+ */
 
 public class Base {
     public static void main(String[] args) {
-        Calculator2 calculator2 = new Calculator2();
-        calculator2.calculate();
+        int choice = 0;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        try {
+            System.out.printf("Введите номер программы (1 - калькулятор, 2 - поиск максимума в массиве слов): ");
+            choice = Integer.parseInt(reader.readLine());
+        } catch (IOException e) {
+            System.out.println("Ошибка ввода: " + e);
+        }
+        switch (choice) {
+            case (1): //Запуск калькулятора
+                new Calculator2().calculate();
+                break;
+            case (2): //Запуск поиска максимума в массиве строк
+                new MaxElement3().findMaxInArray();
+                break;
+            default:
+                break;
+        }
     }
 }

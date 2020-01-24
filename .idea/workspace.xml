@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2af6c1-aeb4-4654-85ef-a8f65a3edbad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MaxElement3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +27,7 @@
   <component name="ProjectId" id="1WqBBtYez6agdYtQ9deDYiIyGoJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -88,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579872343609</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="К классу калькулятора добавлена цифра 2, как в номере задания">
+      <created>1579872816457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579872816457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализовано +,-,/,* дробных чисел" />
     <MESSAGE value="Калькулятор перенесен в отдельный класс" />
-    <option name="LAST_COMMIT_MESSAGE" value="Калькулятор перенесен в отдельный класс" />
+    <MESSAGE value="К классу калькулятора добавлена цифра 2, как в номере задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="К классу калькулятора добавлена цифра 2, как в номере задания" />
   </component>
 </project>
