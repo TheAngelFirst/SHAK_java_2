@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f2af6c1-aeb4-4654-85ef-a8f65a3edbad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base.java" afterDir="false" />
-    </list>
+    <list default="true" id="1f2af6c1-aeb4-4654-85ef-a8f65a3edbad" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +63,14 @@
       <option name="presentableId" value="Default" />
       <updated>1579867111819</updated>
     </task>
+    <task id="LOCAL-00001" summary="Реализовано +,-,/,* дробных чисел">
+      <created>1579871258692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579871258692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Реализовано +,-,/,* дробных чисел" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализовано +,-,/,* дробных чисел" />
   </component>
 </project>
