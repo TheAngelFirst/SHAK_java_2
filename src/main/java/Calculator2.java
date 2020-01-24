@@ -2,10 +2,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Calculator {
+class Calculator2 {
     private int numOp = 0;
     private double x1 = 0, x2 = 0, result = 0;
-    private BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     void calculate(){
         try {
             System.out.printf("Введите номер операции (1 - сложение, 2 - вычитание, 3 - деление, 4 - умножение): ");
