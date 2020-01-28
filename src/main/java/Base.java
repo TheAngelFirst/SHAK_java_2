@@ -15,10 +15,7 @@ import java.io.InputStreamReader;
 
 public class Base {
     public static void main(String[] args) {
-        /*
-        Реализовать калькулятор в стиле ООП. Архитектуру приложения продумать самостоятельно.
-         */
-        System.out.println(new Calculator5().calculateResult());
+
         /*
         Программа должна выполнять одно из заданий на выбор.
         Если в консоли ввести 1 - запуститься выполнение калькулятора, если 2 - поиск максимального слова в массиве.
@@ -33,7 +30,7 @@ public class Base {
         }
         switch (choice) {
             case (1): //Запуск калькулятора
-                new Calculator2().calculate();
+                System.out.println(new Calculator5().calculateResult());
                 break;
             case (2): //Запуск поиска максимума в массиве строк
                 new MaxElement3().findMaxInArray();
