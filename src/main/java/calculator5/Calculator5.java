@@ -10,6 +10,9 @@ import java.io.InputStreamReader;
 /*
 Реализовать калькулятор в стиле ООП. Архитектуру приложения продумать самостоятельно.
  */
+/*
+Добавить обработку исключений в задание с ООП калькуляторам (например, исключение может возникнуть при делении на ноль)
+ */
 public class Calculator5 implements InterfaceCalculator5 {
 
     private double a = 0, b = 0;
@@ -31,15 +34,21 @@ public class Calculator5 implements InterfaceCalculator5 {
     }
 
     public String calculateResult(double a, String operation, double b) {
+
         switch (operation) {
             case ("+"): //Сложение
-                return String.valueOf(Sum(a, b));
+                return  String.format("%.4f", Sum(a, b));
             case ("-"): //Вычетание
-                return String.valueOf(Subtraction(a, b));
+                return String.format("%.4f", Subtraction(a, b));
             case ("/"): //Деление
-                return String.valueOf(Division(a, b));
+                try {
+                    return String.format("%.4f", Division(a, b));
+                } catch (DivisionByZeroException7 divisionByZeroException7) {
+                    divisionByZeroException7.printStackTrace();
+                    break;
+                }
             case ("*"): //Умножение
-                return String.valueOf(Multiplication(a, b));
+                return String.format("%.4f", Multiplication(a, b));
         }
         System.out.println("Ошибка ввода.");
         return calculateResult();
@@ -57,7 +66,10 @@ public class Calculator5 implements InterfaceCalculator5 {
         return a * b;
     }
 
-    public double Division(double a, double b) {
-        return a / b;
+    public double Division(double a, double b) throws DivisionByZeroException7 {
+        if (b != 0.0)
+            return a / b;
+        else
+            throw new DivisionByZeroException7();
     }
 }
