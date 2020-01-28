@@ -1,3 +1,4 @@
+import calculator5.Calculator5;
 import sweets4.Candy4;
 import sweets4.Jellybean4;
 import sweets4.Sweetness4;
@@ -14,6 +15,10 @@ import java.io.InputStreamReader;
 
 public class Base {
     public static void main(String[] args) {
+        /*
+        Реализовать калькулятор в стиле ООП. Архитектуру приложения продумать самостоятельно.
+         */
+        System.out.println(new Calculator5().calculateResult());
         /*
         Программа должна выполнять одно из заданий на выбор.
         Если в консоли ввести 1 - запуститься выполнение калькулятора, если 2 - поиск максимального слова в массиве.

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f2af6c1-aeb4-4654-85ef-a8f65a3edbad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sweets4/Candy4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sweets4/Jellybean4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sweets4/Sweetness4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sweets4/Сhocolate4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculator5/Calculator5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculator5/InterfaceCalculator5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Array4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Array4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579878237564</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Задание 4 выполнено">
+      <created>1580135091041</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580135091041</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +150,7 @@
     <MESSAGE value="К классу калькулятора добавлена цифра 2, как в номере задания" />
     <MESSAGE value="Задание 3 выполнено" />
     <MESSAGE value="Задание 4 частично" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 4 частично" />
+    <MESSAGE value="Задание 4 выполнено" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 4 выполнено" />
   </component>
 </project>
