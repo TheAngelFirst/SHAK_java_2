@@ -45,7 +45,7 @@ public class Calculator5 implements InterfaceCalculator5 {
                     return String.format("%.4f", Division(a, b));
                 } catch (DivisionByZeroException7 divisionByZeroException7) {
                     divisionByZeroException7.printStackTrace();
-                    break;
+                    System.exit(1);
                 }
             case ("*"): //Умножение
                 return String.format("%.4f", Multiplication(a, b));
